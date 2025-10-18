@@ -94,7 +94,7 @@ pytest tests/ \
     --cov=src \
     --cov-report=html \
     --cov-report=term-missing \
-    --cov-fail-under=70 \
+    --cov-fail-under=100 \
     || {
         print_error "Tests failed!"
         exit 1
