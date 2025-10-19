@@ -56,7 +56,7 @@ MIN_FOLLOWERS = 5     # Too few followers may indicate inactive account
 MAX_FOLLOWERS = 1000  # Too many followers may indicate that the person doesn't follow back
 INACTIVITY_DAYS = 60  # Days without activity to consider account potentially inactive
 FOLLOW_RATIO_THRESHOLD = 1.2  # Following/followers ratio (>1 indicates person tends to follow)
-MAX_FOLLOWS_PER_DAY = 200  # Limit to avoid appearing as spam/bot
+MAX_FOLLOWS_PER_DAY = 2000  # Cap daily follows to stay within GitHub policies
 
 # Helper functions
 def handle_api_response(response, context="API request"):

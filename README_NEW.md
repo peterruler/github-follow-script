@@ -146,7 +146,7 @@ MIN_FOLLOWERS = 5         # Skip inactive accounts
 MAX_FOLLOWERS = 1000      # Skip influencers/celebrities
 INACTIVITY_DAYS = 60      # Skip inactive users
 FOLLOW_RATIO_THRESHOLD = 1.2  # Skip follow-spammers
-MAX_FOLLOWS_PER_DAY = 200     # Daily follow limit
+MAX_FOLLOWS_PER_DAY = 2000    # Daily follow limit
 ```
 
 ## 🏗️ Architecture

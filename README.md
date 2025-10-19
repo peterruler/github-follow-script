@@ -81,7 +81,7 @@ The script uses several configurable parameters to determine suitable follow can
 | `MAX_FOLLOWERS` | 1000 | Maximum followers threshold (avoids popular accounts unlikely to follow back) |
 | `INACTIVITY_DAYS` | 60 | Days without activity to consider an account inactive |
 | `FOLLOW_RATIO_THRESHOLD` | 1.2 | Minimum following/followers ratio indicating follow-back tendency |
-| `MAX_FOLLOWS_PER_DAY` | 20 | Maximum users to follow per execution |
+| `MAX_FOLLOWS_PER_DAY` | 2000 | Maximum users to follow per execution |
 
 ## Algorithm
 

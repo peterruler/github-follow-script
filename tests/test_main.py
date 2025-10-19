@@ -14,7 +14,7 @@ from main import (
     get_my_following, get_user_followers, get_user_following,
     follow_user, is_good_follow_candidate, find_potential_follows,
     GITHUB_API, MAX_FOLLOWING, MIN_FOLLOWERS, MAX_FOLLOWERS,
-    INACTIVITY_DAYS, FOLLOW_RATIO_THRESHOLD
+    INACTIVITY_DAYS, FOLLOW_RATIO_THRESHOLD, MAX_FOLLOWS_PER_DAY
 )
 
 
@@ -343,6 +343,7 @@ class TestConfiguration:
         assert MAX_FOLLOWERS == 1000
         assert INACTIVITY_DAYS == 60
         assert FOLLOW_RATIO_THRESHOLD == 1.2
+    assert MAX_FOLLOWS_PER_DAY == 2000
 
     def test_github_api_url(self):
         """Test GitHub API URL is correct"""
